@@ -23,4 +23,7 @@ Your roll number is 10
 
 564.6758463 (keyboard input)
 564.67584 ( here we get floating point error )
+
+10 ( if we give 10 as keyboard inout then 10.0 as output beacuse of float: Type casting)
+10.0
 */
