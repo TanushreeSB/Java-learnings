@@ -9,6 +9,9 @@ public class Inputs {
 
         int a = 23_00_000; // here _ ignored we can't write comma
         System.out.println(a);
+
+        float marks = input.nextFloat();
+        System.out.println(marks);
     }
 }
 
@@ -17,4 +20,7 @@ output:
 Please enter some input: 10
 Your roll number is 10
 2300000
+
+564.6758463 (keyboard input)
+564.67584 ( here we get floating point error )
 */
