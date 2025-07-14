@@ -13,7 +13,7 @@ public class Scope {
         System.out.println(a);
         // System.out.println(c); // cannot use outside the block
     }
-
+    int c = 900;
     static void random(int marks) {
         int num = 67;
         System.out.println(num);
