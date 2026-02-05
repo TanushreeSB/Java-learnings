@@ -14,3 +14,23 @@ public class ParameterDemo {
 // Liam Shinde
 // Jenny Shinde
 // Anja Shinde
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Multiple Parameters
+
+public class Main {
+  static void myMethod(String fname,int age) {
+    System.out.println(fname + " Shinde " + "is " + age);
+  }
+
+  public static void main(String[] args) {
+    myMethod("Liam",12);
+    myMethod("Jenny",13);
+    myMethod("Anja",14);
+  }
+}
+
+// Liam Shinde is 12
+// Jenny Shinde is 13
+// Anja Shinde is 14
