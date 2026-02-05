@@ -10,3 +10,9 @@
 
 - Parameters are specified after the method name, inside the parentheses. 
 - We can add as many parameters as you want, just separate them with a comma. 
+
+- Method Overloading
+With method overloading, multiple methods can have the same name with different parameters:
+int myMethod(int x)
+float myMethod(float x)
+double myMethod(double x, double y)
