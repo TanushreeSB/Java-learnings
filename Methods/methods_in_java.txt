@@ -5,3 +5,8 @@
 - Methods are used to perform certain actions, and they are also known as functions.
 
 - Methods are used to reuse code
+
+- Information can be passed to methods as a parameter. Parameters act as variables inside the method.
+
+- Parameters are specified after the method name, inside the parentheses. 
+- We can add as many parameters as you want, just separate them with a comma. 
