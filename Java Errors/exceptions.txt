@@ -28,3 +28,5 @@ Something went wrong.
 The 'try catch' is finished.
 
 The throw statement allows you to create a custom error.
+
+You can add more than one catch block, and Java will run the first one that matches the thrown exception type
