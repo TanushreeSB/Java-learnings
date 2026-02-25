@@ -1,3 +1,5 @@
+// With method overloading, multiple methods can have the same name with different parameters
+
 public class MethodOverloadingDemo {
   static int plusMethod(int x, int y) {
     return x + y;
