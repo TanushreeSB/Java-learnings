@@ -39,7 +39,7 @@ class InsertAtEndInDoublyLinkedList {
         newNode.prev = temp;
     }
 
-    // Display list
+    // Display list ( display forward) 
     void display() {
 
         Node temp = head;
