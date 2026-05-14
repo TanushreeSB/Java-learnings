@@ -77,3 +77,81 @@ class InsertATBeginningnDoublyLinkedList {
         list.displayBackward();
     }
 }
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// with user input
+    import java.util.Scanner;
+
+class Node {
+    int data;
+    Node prev;
+    Node next;
+
+    // Constructor
+    Node(int data) {
+        this.data = data;
+        this.prev = null;
+        this.next = null;
+    }
+}
+
+class DoublyLinkedList {
+
+    Node head;
+
+    // Insert at beginning
+    void insertAtBeginning(int data) {
+
+        Node newNode = new Node(data);
+
+        // If list is empty
+        if (head == null) {
+            head = newNode;
+            return;
+        }
+
+        // Link new node with current head
+        newNode.next = head;
+        head.prev = newNode;
+
+        // Move head to new node
+        head = newNode;
+    }
+
+    // Display list forward
+    void display() {
+        Node temp = head;
+
+        System.out.print("Doubly Linked List: ");
+        while (temp != null) {
+            System.out.print(temp.data + " ");
+            temp = temp.next;
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        DoublyLinkedList list = new DoublyLinkedList();
+
+        System.out.print("Enter number of nodes: ");
+        int n = sc.nextInt();
+
+        // User input
+        for (int i = 0; i < n; i++) {
+            System.out.print("Enter data: ");
+            int data = sc.nextInt();
+
+            list.insertAtBeginning(data);
+        }
+
+        // Display list
+        list.display();
+
+        sc.close();
+    }
+}
