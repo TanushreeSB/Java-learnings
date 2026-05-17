@@ -13,7 +13,7 @@
             this.child = null;
         }
     }
-
+Problem link: https://www.naukri.com/code360/problems/flatten-a-linked-list_1112655
 ************************************************************/
 
 public class FlattenALinkedListSolution {
