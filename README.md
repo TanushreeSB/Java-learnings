@@ -148,4 +148,7 @@ The type is decided **at compile time**, not at runtime.
 
 ---
 
+DSA:
+
+LINKED LIST: https://www.notion.so/Linked-List-Questions-Patterns-36193fd788e28073b2d9ebd687ed1429
 
