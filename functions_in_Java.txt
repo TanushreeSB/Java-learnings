@@ -1,0 +1,3 @@
+ In Java, functions are always defined inside classes and are called methods. The most common types are static methods (class-level), instance methods (object-level), and constructors (initialization). For encapsulation, getters and setters are widely used, while abstract and final methods control inheritance and polymorphism.
+
+https://medium.com/@AlexanderObregon/methods-vs-functions-in-java-for-beginners-0a22c5893aef
