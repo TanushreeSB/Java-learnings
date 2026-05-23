@@ -1,5 +1,6 @@
 # Java-learnings
 
+Spring Boot Study Plan: https://www.notion.so/Spring-Boot-Plan-36993fd788e280b8a3a5ee389c287169
 
 DSA:
 
