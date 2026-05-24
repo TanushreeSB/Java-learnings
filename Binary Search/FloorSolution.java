@@ -11,7 +11,7 @@ class FloorSolution {
                 ans = i;
             }
             else {
-                break;
+                break; // floor cannot exist further because array is sorted.
             }
         }
 
