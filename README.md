@@ -10,3 +10,4 @@ Bit Manipulation: https://www.notion.so/Bit-Manipulation-Patterns-36593fd788e280
 
 Binary Search: https://www.notion.so/Binary-Search-Patterns-36893fd788e28034a328f84c38f2ff93
 
+Stack: https://www.notion.so/Stack-Patterns-36593fd788e2809b86d5f05c4fbb59c8
