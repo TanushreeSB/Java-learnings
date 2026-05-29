@@ -65,3 +65,39 @@ class Main {
         System.out.println(box1.get());
     }
 }
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+class Box<T> {
+    T value;
+
+    // Constructor
+    Box(T value) {
+        this.value = value;
+    }
+
+    // Setter method renamed to setVal
+    void setVal(T value) {
+        this.value = value;
+    }
+
+    // Getter method
+    T getVal() {
+        return value;
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Start small. Ship something.");
+
+        // Using constructor
+        Box<String> box = new Box<>("Java");
+        System.out.println(box.getVal());
+
+        // Using renamed setter method
+        Box<Integer> box1 = new Box<>(0);   // initialize with 0
+        box1.setVal(10);                    // call setVal instead of set
+        System.out.println(box1.getVal());
+    }
+}
