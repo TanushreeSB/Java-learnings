@@ -1,17 +1,9 @@
-class Main {
-    // Generic method: <T> declares type parameter, T is return type
-    public <T> T getValue(T data) {
-        return data;
-    }
-}
 
 class GenericMethodDemo {
     public static void main(String[] args) {
         Demo demo = new Demo();
 
-        // Using with String
-        String str = demo.getValue("Hello Generics");
-        System.out.println(str);
+        System.out.println(demo.getValue("Hello Generics"));
 
         // Using with Integer
         Integer num = demo.getValue(123);
@@ -26,3 +18,11 @@ class GenericMethodDemo {
         System.out.println(b);
     }
 }
+
+class Demo {
+    // Generic method: <T> declares type parameter, T is return type
+    public <T> T getValue(T data) {
+        return data;
+    }
+}
+
