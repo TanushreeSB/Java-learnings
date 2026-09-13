@@ -13,3 +13,5 @@ class Greater_Than_Neighbors {
 }
 
 /*
+“Elements with At Least Two Significant Neighbors” you mean an element is significant when it is greater than both its immediate neighbors
+*/
